@@ -16,8 +16,8 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
-    Left = 49
-    Top = 328
+    Left = 201
+    Top = 336
     Width = 401
     Height = 265
     Picture.Data = {
@@ -1143,7 +1143,7 @@ object Form1: TForm1
       'Prepare SQL=False'
       'ConnectTimeout=60'
       'Mars_Connection=False')
-    Left = 592
+    Left = 568
     Top = 56
   end
   object SQLQuery1: TSQLQuery
