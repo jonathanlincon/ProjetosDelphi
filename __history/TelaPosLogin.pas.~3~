@@ -1,0 +1,46 @@
+unit TelaPosLogin;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls,
+  Vcl.Imaging.jpeg;
+
+type
+  TPosLogin = class(TForm)
+    LabelBemVindo: TLabel;
+    DofusRetro: TPanel;
+    Dofus: TPanel;
+    Ffxiv: TPanel;
+    Tibia: TPanel;
+    BlackDesert: TPanel;
+    Tera: TPanel;
+    Elsword: TPanel;
+    Lunia: TPanel;
+    ImagemDofusRetroServicos: TImage;
+    ImagemDofusServicos: TImage;
+    ImagemFfxivServicos: TImage;
+    ImageTibiaServicos: TImage;
+    ImagemBlackDesertServicos: TImage;
+    ImagemTeraServicos: TImage;
+    ImagemElswordServicos: TImage;
+    ImagemLuniaServicos: TImage;
+    PosLoginLabel2: TLabel;
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  PosLogin: TPosLogin;
+
+implementation
+
+{$R *.dfm}
+
+
+
+end.

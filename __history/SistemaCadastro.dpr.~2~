@@ -1,0 +1,16 @@
+program SistemaCadastro;
+
+uses
+  Vcl.Forms,
+  UCadastroUsuario in 'UCadastroUsuario.pas' {Form1},
+  UPrincipal in 'UPrincipal.pas' {UMain};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TUMain, UMain);
+  Application.Run;
+end.
